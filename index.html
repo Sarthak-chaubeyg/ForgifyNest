@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO Metadata -->
+    <title>CipherNest - Private Encrypted File Vault | Secure Local Locker</title>
+    <meta name="description" content="CipherNest is a private encrypted file vault. Securely encrypt files of any size locally on your device with native browser Web Crypto API (AES-256-GCM) and 600,000 PBKDF2 iterations. Zero-storage, zero-knowledge." />
+    <meta name="keywords" content="private encrypted file vault, local-only encryption, browser-based file vault, open-source privacy vault, encrypted file storage, secure local locker" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ciphernest.netlify.app/" />
+    <meta property="og:title" content="CipherNest - Private Encrypted File Vault | Secure Local Locker" />
+    <meta property="og:description" content="Securely encrypt files of any size locally in your browser. No files, passwords, or keys ever touch our servers. Powered by native Web Crypto." />
+    <meta property="og:image" content="https://ciphernest.netlify.app/og-image.png" />
+    <meta property="og:site_name" content="CipherNest" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://ciphernest.netlify.app/" />
+    <meta name="twitter:title" content="CipherNest - Private Encrypted File Vault" />
+    <meta name="twitter:description" content="Securely encrypt files of any size locally in your browser. Client-side, zero-knowledge, and offline-capable." />
+    <meta name="twitter:image" content="https://ciphernest.netlify.app/og-image.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2225%22 fill=%22%23111625%22/><text y=%22.9em%22 font-size=%2290%22>🔒</text></svg>" />
+
+    <!-- FAQ JSON-LD Schema (Google Search & Answer Engine Optimization) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Where are my files stored?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your files are not stored on any server, nor are they saved in your browser's persistent database. CipherNest operates on-the-fly. When you encrypt a file, it is processed locally in browser memory and immediately downloaded back to your hard drive as an encrypted .cnest package. Close the tab, and your memory is entirely cleared."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you see my password?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Never. All key derivation (PBKDF2) is executed inside a local Web Worker thread on your CPU. No password or derived key is ever transmitted over the network or logged in console logs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can the site read my files?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Because the application is served as static HTML, CSS, and JS with a strict Content Security Policy (CSP), it has no server connections. It cannot upload your data. You can inspect the source code to verify this, or load the page and disconnect your internet entirely - the app will work perfectly offline."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens if I lose my password?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because we have zero storage and zero knowledge of your keys, we cannot recover your password or files. Without your master passphrase, the files are mathematically unrecoverable."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this truly quantum-proof?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We do not make hype-based claims. Standard symmetric encryption like AES-256 is theoretically resistant to quantum brute-forcing (reducing its strength to a still-unbreakable 128-bits of security under Grover's algorithm). We've built versioning directly into our file format so that if future quantum-safe key exchange algorithms are standardized in the Web Crypto API, the structure is ready for migration."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
