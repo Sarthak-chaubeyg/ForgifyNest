@@ -1,4 +1,4 @@
-// CipherNest Service Worker for streaming chunked downloads
+// ForgifyNest Service Worker for streaming chunked downloads
 // Enables memory-safe, stream-based downloads of arbitrary sized files
 
 const activeDownloads = new Map();

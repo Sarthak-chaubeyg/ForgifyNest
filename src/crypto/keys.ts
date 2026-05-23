@@ -1,4 +1,4 @@
-// Cryptographic core helpers for CipherNest
+// Cryptographic core helpers for ForgifyNest
 // Utilizes the native browser Web Crypto API (crypto.subtle)
 
 /**

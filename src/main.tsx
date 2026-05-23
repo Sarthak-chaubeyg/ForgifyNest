@@ -14,10 +14,10 @@ if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('/sw.js')
       .then((registration) => {
-        console.log('CipherNest ServiceWorker registered successfully: ', registration.scope);
+        console.log('ForgifyNest ServiceWorker registered successfully: ', registration.scope);
       })
       .catch((error) => {
-        console.error('CipherNest ServiceWorker registration failed: ', error);
+        console.error('ForgifyNest ServiceWorker registration failed: ', error);
       });
   });
 }

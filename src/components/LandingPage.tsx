@@ -64,14 +64,14 @@ const LandingPage: React.FC = () => {
         <div className="container nav-inner">
           <Link to="/" className="nav-logo">
             <div className="nav-logo-icon"><span>CN</span></div>
-            <span className="nav-logo-text">CipherNest</span>
+            <span className="nav-logo-text">ForgifyNest</span>
           </Link>
 
           <div className="nav-links">
             <button className="nav-link" onClick={() => scrollTo('security')}>Security</button>
             <button className="nav-link" onClick={() => scrollTo('features')}>Features</button>
             <button className="nav-link" onClick={() => scrollTo('faq')}>FAQ</button>
-            <a href="https://github.com/Sarthak-chaubeyg/CipherNest" target="_blank" rel="noopener noreferrer" className="nav-link">GitHub</a>
+            <a href="https://github.com/Sarthak-chaubeyg/ForgifyNest" target="_blank" rel="noopener noreferrer" className="nav-link">GitHub</a>
             <Link to="/vault" className="nav-cta">Open Vault Engine</Link>
           </div>
 
@@ -91,7 +91,7 @@ const LandingPage: React.FC = () => {
         <button className="nav-link" onClick={() => scrollTo('security')}>Security Model</button>
         <button className="nav-link" onClick={() => scrollTo('features')}>Features</button>
         <button className="nav-link" onClick={() => scrollTo('faq')}>FAQ</button>
-        <a href="https://github.com/Sarthak-chaubeyg/CipherNest" target="_blank" rel="noopener noreferrer" className="nav-link">GitHub</a>
+        <a href="https://github.com/Sarthak-chaubeyg/ForgifyNest" target="_blank" rel="noopener noreferrer" className="nav-link">GitHub</a>
         <Link to="/vault" className="nav-cta" onClick={() => setMobileOpen(false)}>Open Vault Engine</Link>
       </div>
 
@@ -108,7 +108,7 @@ const LandingPage: React.FC = () => {
             </h1>
 
             <p className="hero-desc">
-              CipherNest is a private encrypted file vault. Files of any size are processed and encrypted directly in your browser. No data ever touches a server.
+              ForgifyNest is a private encrypted file vault. Files of any size are processed and encrypted directly in your browser. No data ever touches a server.
             </p>
 
             <div className="hero-cta-row">
@@ -141,7 +141,7 @@ const LandingPage: React.FC = () => {
           <div className="section-header">
             <div className="section-label" style={{ margin: '0 auto var(--space-lg)' }}>The Problem</div>
             <h2>Traditional Cloud Storage is a Liability</h2>
-            <p>Cloud servers get breached, hosting policies change, and centralized services can expose your private files. CipherNest takes a different approach.</p>
+            <p>Cloud servers get breached, hosting policies change, and centralized services can expose your private files. ForgifyNest takes a different approach.</p>
           </div>
 
           <div className="comparison-grid">
@@ -154,7 +154,7 @@ const LandingPage: React.FC = () => {
             </div>
             <div className="card card-lift" style={{ padding: 'var(--space-xl)', borderLeft: '2px solid var(--cyan)' }}>
               <div className="feature-icon feature-icon-cyan">🔒</div>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: 700, marginBottom: '12px' }}>The CipherNest Solution</h3>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: 700, marginBottom: '12px' }}>The ForgifyNest Solution</h3>
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.93rem', lineHeight: 1.7 }}>
                 We convert your browser into a local, high-speed encryption engine. Your file never uploads. It is encrypted using client-side keys and saved back to your device under a randomized filename (<code>cn_*.cnest</code>). You hold the lock and the key.
               </p>
@@ -227,7 +227,7 @@ const LandingPage: React.FC = () => {
           <div className="section-header">
             <div className="section-label" style={{ margin: '0 auto var(--space-lg)' }}>Engineering</div>
             <h2>Core Engineering Features</h2>
-            <p>CipherNest is a technical security tool designed for reliability, speed, and privacy.</p>
+            <p>ForgifyNest is a technical security tool designed for reliability, speed, and privacy.</p>
           </div>
 
           <div className="features-grid">
@@ -255,10 +255,10 @@ const LandingPage: React.FC = () => {
           <div className="card oss-banner" style={{ borderRadius: 'var(--radius-2xl)' }}>
             <h2>Open Source & Verifiable</h2>
             <p>
-              True security is verifiable. All CipherNest client code, helper modules, and deployment scripts are public and open source. Audit our code, verify our claims, or host it yourself.
+              True security is verifiable. All ForgifyNest client code, helper modules, and deployment scripts are public and open source. Audit our code, verify our claims, or host it yourself.
             </p>
             <div className="oss-buttons">
-              <a href="https://github.com/Sarthak-chaubeyg/CipherNest" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-shimmer">
+              <a href="https://github.com/Sarthak-chaubeyg/ForgifyNest" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-shimmer">
                 ⭐ View Source on GitHub
               </a>
               <Link to="/vault" className="btn btn-secondary">
@@ -279,7 +279,7 @@ const LandingPage: React.FC = () => {
           <div>
             <FAQItem
               question="Where are my files stored?"
-              answer="Your files are not stored on any server, nor in your browser's database. CipherNest operates on-the-fly: when you encrypt a file, it is processed locally in browser memory and immediately downloaded back to your hard drive as an encrypted .cnest package. Close the tab, and your memory is entirely cleared."
+              answer="Your files are not stored on any server, nor in your browser's database. ForgifyNest operates on-the-fly: when you encrypt a file, it is processed locally in browser memory and immediately downloaded back to your hard drive as an encrypted .cnest package. Close the tab, and your memory is entirely cleared."
             />
             <FAQItem
               question="Do you see my password?"
@@ -308,7 +308,7 @@ const LandingPage: React.FC = () => {
             <div className="footer-brand">
               <Link to="/" className="nav-logo" style={{ marginBottom: '4px' }}>
                 <div className="nav-logo-icon" style={{ width: 24, height: 24, borderRadius: 6 }}><span style={{ fontSize: '0.65rem' }}>CN</span></div>
-                <span style={{ fontSize: '1.05rem', fontWeight: 800, color: '#fff' }}>CipherNest</span>
+                <span style={{ fontSize: '1.05rem', fontWeight: 800, color: '#fff' }}>ForgifyNest</span>
               </Link>
               <p>Open-source, privacy-first local file encryption utility. No tracking, no telemetry, no servers.</p>
             </div>
@@ -320,19 +320,19 @@ const LandingPage: React.FC = () => {
             </div>
             <div className="footer-col">
               <h4>Developers</h4>
-              <a href="https://github.com/Sarthak-chaubeyg/CipherNest" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="https://github.com/Sarthak-chaubeyg/CipherNest/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">Contributing</a>
-              <a href="https://github.com/Sarthak-chaubeyg/CipherNest/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer">Changelog</a>
+              <a href="https://github.com/Sarthak-chaubeyg/ForgifyNest" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://github.com/Sarthak-chaubeyg/ForgifyNest/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">Contributing</a>
+              <a href="https://github.com/Sarthak-chaubeyg/ForgifyNest/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer">Changelog</a>
             </div>
             <div className="footer-col">
               <h4>Legal</h4>
-              <a href="https://github.com/Sarthak-chaubeyg/CipherNest/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a>
-              <a href="https://github.com/Sarthak-chaubeyg/CipherNest/blob/main/SECURITY.md" target="_blank" rel="noopener noreferrer">Security Policy</a>
-              <a href="https://github.com/Sarthak-chaubeyg/CipherNest/blob/main/CODE_OF_CONDUCT.md" target="_blank" rel="noopener noreferrer">Code of Conduct</a>
+              <a href="https://github.com/Sarthak-chaubeyg/ForgifyNest/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a>
+              <a href="https://github.com/Sarthak-chaubeyg/ForgifyNest/blob/main/SECURITY.md" target="_blank" rel="noopener noreferrer">Security Policy</a>
+              <a href="https://github.com/Sarthak-chaubeyg/ForgifyNest/blob/main/CODE_OF_CONDUCT.md" target="_blank" rel="noopener noreferrer">Code of Conduct</a>
             </div>
           </div>
           <div className="footer-bottom">
-            <span>© {new Date().getFullYear()} CipherNest. MIT License.</span>
+            <span>© {new Date().getFullYear()} ForgifyNest. MIT License.</span>
             <span>Built with transparency. No data leaves your device.</span>
           </div>
         </div>

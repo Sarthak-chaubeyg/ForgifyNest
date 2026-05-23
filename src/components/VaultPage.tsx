@@ -26,11 +26,11 @@ const VaultPage: React.FC = () => {
             <div className="nav-logo-icon" style={{ width: 28, height: 28, borderRadius: 7 }}>
               <span style={{ fontSize: '0.72rem' }}>CN</span>
             </div>
-            <span className="nav-logo-text" style={{ fontSize: '1.05rem' }}>CipherNest</span>
+            <span className="nav-logo-text" style={{ fontSize: '1.05rem' }}>ForgifyNest</span>
           </Link>
 
           <a
-            href="https://github.com/Sarthak-chaubeyg/CipherNest"
+            href="https://github.com/Sarthak-chaubeyg/ForgifyNest"
             target="_blank"
             rel="noopener noreferrer"
             className="vault-back"

@@ -1,4 +1,4 @@
-// CipherNest Web Worker for streaming cryptographic operations
+// ForgifyNest Web Worker for streaming cryptographic operations
 // Handles AES-256-GCM encryption/decryption in 2MB chunks in a background thread
 
 import { deriveKEK, generateRandomKey, encryptBytes, decryptBytes, wrapKey, unwrapKey } from './keys';
@@ -223,7 +223,7 @@ async function parseCnestHeader(file: File): Promise<ParsedHeader> {
   // 1. Verify Magic Bytes
   for (let i = 0; i < MAGIC.length; i++) {
     if (previewBytes[i] !== MAGIC[i]) {
-      throw new Error('Invalid file format. The file is not a valid CipherNest (.cnest) package.');
+      throw new Error('Invalid file format. The file is not a valid ForgifyNest (.cnest) package.');
     }
   }
 
@@ -231,7 +231,7 @@ async function parseCnestHeader(file: File): Promise<ParsedHeader> {
   let offset = MAGIC.length;
   const version = previewBytes[offset];
   if (version !== VERSION) {
-    throw new Error(`Unsupported CipherNest version: v${version}`);
+    throw new Error(`Unsupported ForgifyNest version: v${version}`);
   }
   offset += 1;
 

@@ -1,4 +1,4 @@
-# 🔒 CipherNest
+# 🔒 ForgifyNest
 
 **Private Encrypted File Vault**
 
@@ -8,9 +8,9 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6.svg)](https://www.typescriptlang.org)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-CipherNest is an open-source, privacy-first, client-side encryption utility. It operates with a **zero-storage security posture**: no files, metadata, or keys are saved in any browser database or transmitted to any server. Your browser acts entirely as a local, secure processing engine.
+ForgifyNest is an open-source, privacy-first, client-side encryption utility. It operates with a **zero-storage security posture**: no files, metadata, or keys are saved in any browser database or transmitted to any server. Your browser acts entirely as a local, secure processing engine.
 
-> **[Live Demo →](https://ciphernest.netlify.app)** · **[Report a Vulnerability →](SECURITY.md)**
+> **[Live Demo →](https://forgifynest.netlify.app)** · **[Report a Vulnerability →](SECURITY.md)**
 
 ---
 
@@ -29,7 +29,7 @@ CipherNest is an open-source, privacy-first, client-side encryption utility. It 
 
 ## 🔐 Cryptographic Design & `.cnest` Format Specification
 
-CipherNest compiles files into a custom binary container format with the **`.cnest`** extension.
+ForgifyNest compiles files into a custom binary container format with the **`.cnest`** extension.
 
 ### Binary Layout
 
@@ -100,8 +100,8 @@ CipherNest compiles files into a custom binary container format with the **`.cne
 ### Installation
 
 ```bash
-git clone https://github.com/Sarthak-chaubeyg/CipherNest.git
-cd CipherNest
+git clone https://github.com/Sarthak-chaubeyg/ForgifyNest.git
+cd ForgifyNest
 npm install
 ```
 
@@ -131,7 +131,7 @@ Output is compiled into the `dist/` directory.
 
 ## 🚀 Deployment (Netlify)
 
-CipherNest is designed for static hosting on Netlify.
+ForgifyNest is designed for static hosting on Netlify.
 
 | Setting | Value |
 | :--- | :--- |

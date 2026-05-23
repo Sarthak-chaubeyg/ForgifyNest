@@ -13,7 +13,7 @@ beforeAll(() => {
 
 import { deriveKEK, generateRandomKey, encryptBytes, decryptBytes, wrapKey, unwrapKey } from '../src/crypto/keys';
 
-describe('CipherNest Cryptographic Core', () => {
+describe('ForgifyNest Cryptographic Core', () => {
   
   it('should derive a consistent KEK from password and salt', async () => {
     const password = 'test-passphrase-strong-123';

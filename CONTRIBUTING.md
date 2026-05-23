@@ -1,6 +1,6 @@
-# Contributing to CipherNest
+# Contributing to ForgifyNest
 
-Thank you for your interest in contributing to CipherNest! We welcome contributions that keep our code clean, auditable, and secure.
+Thank you for your interest in contributing to ForgifyNest! We welcome contributions that keep our code clean, auditable, and secure.
 
 Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
 
@@ -12,8 +12,8 @@ Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
 
 1. **Fork** the repository and **clone** your fork:
    ```bash
-   git clone https://github.com/<your-username>/CipherNest.git
-   cd CipherNest
+   git clone https://github.com/<your-username>/ForgifyNest.git
+   cd ForgifyNest
    ```
 
 2. **Install** dependencies:
@@ -59,14 +59,14 @@ Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
 
 ### Reporting Bugs
 
-- Search existing [GitHub Issues](https://github.com/Sarthak-chaubeyg/CipherNest/issues) first
+- Search existing [GitHub Issues](https://github.com/Sarthak-chaubeyg/ForgifyNest/issues) first
 - Open a new issue with a clear description, reproducible steps, OS, and browser version
 - **Security vulnerabilities** must be reported privately via [SECURITY.md](SECURITY.md)
 
 ### Suggesting Features
 
 - Open a feature request issue to discuss the enhancement before writing code
-- Ensure it aligns with CipherNest's zero-storage, local-only, privacy-first architecture
+- Ensure it aligns with ForgifyNest's zero-storage, local-only, privacy-first architecture
 
 ### Pull Requests
 

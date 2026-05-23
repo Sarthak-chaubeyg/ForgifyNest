@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to CipherNest will be documented in this file.
+All notable changes to ForgifyNest will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -15,7 +15,7 @@ _No unreleased changes._
 
 ### Added
 
-- **Initial Release** of CipherNest
+- **Initial Release** of ForgifyNest
 - **On-the-fly streaming encryption/decryption** using AES-256-GCM via the native Web Crypto API
 - **Background Web Worker execution** for PBKDF2 (600,000 iterations) and encryption tasks to prevent UI freezing
 - **Service Worker integration** for memory-safe streaming downloads of large files (1GB, 5GB, 10GB+)

@@ -2,12 +2,12 @@
 
 ## Reporting a Vulnerability
 
-We take the security of CipherNest seriously. Since CipherNest is a privacy-focused local encryption tool, any vulnerability that could lead to data leakage, key compromise, or integrity failures is considered high priority.
+We take the security of ForgifyNest seriously. Since ForgifyNest is a privacy-focused local encryption tool, any vulnerability that could lead to data leakage, key compromise, or integrity failures is considered high priority.
 
 **Please do not open a public GitHub issue for security vulnerabilities.** Instead, use one of the following private channels:
 
-- **GitHub Security Advisories:** [Report via GitHub](https://github.com/Sarthak-chaubeyg/CipherNest/security/advisories/new)
-- **Email:** security@ciphernest.org
+- **GitHub Security Advisories:** [Report via GitHub](https://github.com/Sarthak-chaubeyg/ForgifyNest/security/advisories/new)
+- **Email:** security@forgifynest.org
 
 ### What to Include
 
